@@ -1,0 +1,17 @@
+def func(a,q):
+  for i in d:
+    print(i,':',d[i])
+d=()
+n=int(input('Enter the no. of books in your dictionary'))
+i=1
+while i<=n:
+  a=int(input('Enter the book no.'))
+  t=input('Enter the title')
+  at=input("Enter the author's name")
+  p=input('Enter the price')
+  q=[t,at,p]
+  d(a)=q
+  i+=1
+q.sort()
+print('Your dictionary is:',d) 
+func(a,q)
